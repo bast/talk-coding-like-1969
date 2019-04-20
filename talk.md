@@ -21,6 +21,27 @@ about me
 
 ---
 
+In the CodeRefinery project [1] we teach tools and practices for the
+development of reproducible and reusable research software. In the first two
+years of the project we have trained over 550 students and researchers across
+all academic disciplines. Our goal is to advance FAIRness [2] of software
+management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share, and reuse their codes.
+Our lessons include basic and collaborative Git, Git branch design, code
+documentation, automated testing, Jupyter notebooks, integrated development
+environments, CMake, social coding and open software, modular code development,
+and reproducible research.
+
+In this talk we will discuss lessons learned from teaching 20 workshops on
+research software engineering. Particular focus will be put on the importance
+of collaborative code development frameworks and code review (peer review
+during code development). We will discuss training needs necessary to give
+researchers the tools and knowledge to develop software which will stand the
+test of the next two decades: managing code complexity with software which is
+modular, reusable, reproducible, and extensible.
+
+---
+
 slide 1 about the coderefinery project
 
 ---
