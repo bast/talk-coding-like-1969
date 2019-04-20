@@ -1,19 +1,19 @@
 class: center, middle, inverse
 
-# Simple example presentation
+# Coding like it’s 1969
 
-## Author [@404](https://twitter.com)
+## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
 
-Some affiliation
+Nordic e-Infrastructure Collaboration/
+UiT The Arctic University of Norway
 
 ---
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8d/Bundesarchiv_B_145_Bild-F038812-0014%2C_Wolfsburg%2C_VW_Autowerk.jpg)
-class: background
+## Research software engineering recipes for the next two decades
 
-# Slide with a background image
+<img src="img/ibm.jpg" style="width: 500px;"/>
 
-Bundesarchiv, B 145 Bild-F038812-0014 / Schaack, Lothar / CC-BY-SA 3.0 [CC BY-SA 3.0 de (https://creativecommons.org/licenses/by-sa/3.0/de/deed.en)]
+Bundesarchiv, B 145 Bild-F038812-0014 / Schaack, Lothar / [CC-BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en)
 
 ---
 
@@ -26,26 +26,6 @@ slide 1 about the coderefinery project
 ---
 
 slide 2 about the coderefinery project
-
----
-
-# Slide with two columns
-
-.left-column[
-## Left heading
-
-- Some
-- Bullet
-- Points
-]
-
-.right-column[
-## Right heading
-
-- Other
-- Interesting
-- Bullet points
-]
 
 ---
 
