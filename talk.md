@@ -21,6 +21,10 @@ about me
 
 ---
 
+the paper
+
+---
+
 In the CodeRefinery project [1] we teach tools and practices for the
 development of reproducible and reusable research software. In the first two
 years of the project we have trained over 550 students and researchers across
@@ -132,6 +136,10 @@ interop data
 ---
 
 Establishing a culture and the need for training
+
+---
+
+credit
 
 ---
 
