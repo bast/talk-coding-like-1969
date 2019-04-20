@@ -9,9 +9,9 @@ UiT The Arctic University of Norway
 
 ---
 
-## Research software engineering recipes for the next two decades
+### Research software engineering recipes for the next two decades
 
-<img src="img/ibm.jpg" style="width: 500px;"/>
+<img src="img/ibm.jpg" style="width: 100%;"/>
 
 Bundesarchiv, B 145 Bild-F038812-0014 / Schaack, Lothar / [CC-BY-SA 3.0 DE](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en)
 
