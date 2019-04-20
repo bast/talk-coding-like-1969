@@ -21,7 +21,11 @@ about me
 
 ---
 
-2 slides about the coderefinery project
+slide 1 about the coderefinery project
+
+---
+
+slide 2 about the coderefinery project
 
 ---
 
@@ -42,6 +46,34 @@ about me
 - Interesting
 - Bullet points
 ]
+
+---
+
+Publishing computational results without accompanying code will become unacceptable
+
+---
+
+10-year challenge
+
+---
+
+Public access today may not be enough to make software findable and accessible in the future
+
+---
+
+Code review should become a standard practice
+
+---
+
+FAIR
+
+---
+
+Dependencies and package management
+
+---
+
+Sharing code and encouraging derivative work may boost your academic impact
 
 ---
 
@@ -98,8 +130,16 @@ interop data
 
 ---
 
-culture
+Establishing a culture and the need for training
+
+---
+
+challenges
 
 ---
 
 code reading sessions
+
+---
+
+conclusions
