@@ -37,3 +37,16 @@ a {
   width: 50%;
   float: right;
 }
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  font-size: 14px;
+  color: #505050;
+}
+.footnote:before {
+  content: "[";
+}
+.footnote:after {
+  content: "]";
+}
