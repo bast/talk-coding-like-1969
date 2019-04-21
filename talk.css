@@ -50,3 +50,7 @@ a {
 .footnote:after {
   content: "]";
 }
+
+.emph {
+  background-color: #c8deff;
+}
