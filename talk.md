@@ -91,7 +91,26 @@ Publishing computational results without accompanying code will become unaccepta
 
 ---
 
-10-year challenge
+class: center, middle, inverse
+
+## Software reproducibility 10-year challenge:
+
+# Try to build **your code** from 10 years ago
+
+---
+
+## Software reproducibility 10-year challenge
+
+### Couple of uncomfortable questions:
+
+- Can you still .emph[find] your code?
+- It was probably not on GitHub (GitHub launched only 11 years ago, GitLab is only 6 years old).
+- Can you bring it to a .emph[well-defined state]?
+- Can you bring its documentation to refer to the same state?
+- How about .emph[external dependencies]? Have you locked their versions?
+- Have you used Git submodules? Have they moved?
+- Any hard-coded paths?
+- If you manage to build it, how do you know it produces the same results as in the past?
 
 ---
 
