@@ -17,13 +17,39 @@ UiT The Arctic University of Norway
 
 ---
 
-about me
+## About me
+
+- Theoretical chemist turned research software engineer.
+- I write research software and teach programming to researchers and lead the [CodeRefinery project](https://coderefinery.org).
+
+.left-column[
+### Projects
+
+- DIRAC
+- Dalton
+- OpenRSP
+- XCint
+- XCFun
+- Numgrid
+- GIMIC
+- Parselglossy
+- Autocmake
+- Runtest
+- Sonar
+- Smeshing
+]
+
+.right-column[
+### Credits
+
+- Roberto Di Remigio
+- Jonas Juselius
+- CodeRefinery team
+]
 
 ---
 
-the paper
-
----
+slide 1 about the coderefinery project
 
 In the CodeRefinery project [1] we teach tools and practices for the
 development of reproducible and reusable research software. In the first two
@@ -36,6 +62,16 @@ documentation, automated testing, Jupyter notebooks, integrated development
 environments, CMake, social coding and open software, modular code development,
 and reproducible research.
 
+---
+
+slide 2 about the coderefinery project
+
+---
+
+the paper
+
+---
+
 In this talk we will discuss lessons learned from teaching 20 workshops on
 research software engineering. Particular focus will be put on the importance
 of collaborative code development frameworks and code review (peer review
@@ -43,14 +79,6 @@ during code development). We will discuss training needs necessary to give
 researchers the tools and knowledge to develop software which will stand the
 test of the next two decades: managing code complexity with software which is
 modular, reusable, reproducible, and extensible.
-
----
-
-slide 1 about the coderefinery project
-
----
-
-slide 2 about the coderefinery project
 
 ---
 
