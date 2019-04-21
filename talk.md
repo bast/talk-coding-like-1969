@@ -1,6 +1,15 @@
+
+## Coding like it’s 1969
+
+<img src="img/ibm.jpg" style="width: 100%;"/>
+
+.footnote[Bundesarchiv, B 145 Bild-F038812-0014, Lothar Schaack (CC-BY-SA 3.0 DE)]
+
+---
+
 class: center, middle, inverse
 
-# Coding like it’s 1969
+# Research software engineering recipes for the next two decades
 
 ## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
 
@@ -9,18 +18,11 @@ UiT The Arctic University of Norway
 
 ---
 
-### Research software engineering recipes for the next two decades
-
-<img src="img/ibm.jpg" style="width: 100%;"/>
-
-.footnote[Bundesarchiv, B 145 Bild-F038812-0014, Lothar Schaack (CC-BY-SA 3.0 DE)]
-
----
-
 ## About me
 
 - Theoretical chemist turned research software engineer.
-- I write research software and teach programming to researchers and lead the [CodeRefinery project](https://coderefinery.org).
+- I write research software and teach programming to researchers and lead the
+  [CodeRefinery project](https://coderefinery.org).
 
 .left-column[
 ### Projects
