@@ -70,17 +70,20 @@ slide 2 about the coderefinery project
 
 ---
 
-the paper
+## Goals for this talk
+
+- Lessons learned from teaching 20 workshops on research software engineering
+
+### Challenges for the next two decades
+
+- FAIRness in research software development
+- Peer review and code review
+- Software engineering and academic credit
+- Training needs
 
 ---
 
-In this talk we will discuss lessons learned from teaching 20 workshops on
-research software engineering. Particular focus will be put on the importance
-of collaborative code development frameworks and code review (peer review
-during code development). We will discuss training needs necessary to give
-researchers the tools and knowledge to develop software which will stand the
-test of the next two decades: managing code complexity with software which is
-modular, reusable, reproducible, and extensible.
+the paper
 
 ---
 
@@ -182,3 +185,5 @@ code reading sessions
 ---
 
 conclusions
+
+link to these slides
