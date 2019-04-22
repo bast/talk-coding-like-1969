@@ -106,6 +106,22 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
+## CodeRefinery: what is our impact? (1/2)
+
+<img src="img/impact1.png" style="width: 80%;"/>
+
+.footnote[https://coderefinery.org]
+
+---
+
+## CodeRefinery: what is our impact? (2/2)
+
+<img src="img/impact2.png" style="width: 70%;"/>
+
+.footnote[https://coderefinery.org]
+
+---
+
 the paper
 
 ---
