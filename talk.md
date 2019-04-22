@@ -281,9 +281,9 @@ forking
 
 ## Social coding
 
-<img src="img/in-out.jpg" style="width: 110%;"/>
+<img src="img/in-out.jpg" style="width: 100%;"/>
 
-.cite[Idea from R. Darst, adapted]
+.cite[Idea: R. Darst, adapted]
 
 - Whether you can share your output depends on how you obtained your input.
 - Software licenses matter.
