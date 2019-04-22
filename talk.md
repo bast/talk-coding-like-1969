@@ -265,7 +265,25 @@ experimental spectroscopist:
 
 ---
 
-languages
+## Programming languages
+
+- A programming language perfect for everything does not exist yet.
+- Each language has its .emph[own strengths].
+- .emph[Often we do not have the choice] since we enter an existing project.
+- If you choose an exotic programming language, you may get fewer .emph[collaborators].
+
+### It is important that we learn/teach how to interface languages
+
+- C is the *lingua franca*.
+- Python/C (CFFI)
+- Python/C++ (pybind11)
+- Python/Fortran (CFFI via `iso_c_binding`)
+
+### Personal opinions
+
+- .emph[Python] has a rich ecosystem and very active community.
+- Prefer Python over Matlab since Python is free.
+- Rust is underrated. Python/Rust looks like a great combination.
 
 ---
 
