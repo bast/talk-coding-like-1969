@@ -72,9 +72,9 @@ slide 2 about the coderefinery project
 
 ## Goals for this talk
 
-- Lessons learned from teaching 20 workshops on research software engineering
+### - Lessons learned from teaching 20 workshops on research software engineering
 
-### Challenges for the next two decades
+### - Challenges for the next two decades
 
 - FAIRness in research software development
 - Peer review and code review
