@@ -51,22 +51,45 @@ UiT The Arctic University of Norway
 
 ---
 
-slide 1 about the coderefinery project
+## CodeRefinery
 
-In the CodeRefinery project [1] we teach tools and practices for the
-development of reproducible and reusable research software. In the first two
-years of the project we have trained over 550 students and researchers across
-all academic disciplines. Our goal is to advance FAIRness [2] of software
-management and development practices so that research groups can
-collaboratively develop, review, discuss, test, share, and reuse their codes.
-Our lessons include basic and collaborative Git, Git branch design, code
-documentation, automated testing, Jupyter notebooks, integrated development
-environments, CMake, social coding and open software, modular code development,
-and reproducible research.
+We teach tools and practices for the
+development of reproducible and reusable research software.
+
+<img src="img/map.jpg" style="width: 50%;"/>
+
+- https://coderefinery.org
+- https://coderefinery.org/workshops/
 
 ---
 
-slide 2 about the coderefinery project
+## CodeRefinery
+
+- We have trained .emph[over 550 students and researchers]
+- Across all academic disciplines
+- Funding for 2.5 more years
+
+### Our goal
+
+Advance .emph[FAIRness] of software management and development practices so that research groups can
+.emph[collaboratively develop], review, discuss, test, share, and reuse their codes.
+
+---
+
+## CodeRefinery
+
+### Our [lessons](https://coderefinery.org/lessons/)
+
+- Basic and collaborative Git
+- Git branch design
+- Code documentation
+- Automated testing
+- Jupyter notebooks
+- Integrated development environments
+- Building portable code with CMake
+- Social coding and open software
+- Modular code development
+- Reproducible research
 
 ---
 
