@@ -46,6 +46,7 @@ UiT The Arctic University of Norway
 
 - Roberto Di Remigio
 - Jonas Juselius
+- Richard Darst
 - CodeRefinery team
 ]
 
@@ -278,11 +279,15 @@ forking
 
 ---
 
-social coding
+## Social coding
 
-in/out
+<img src="img/in-out.jpg" style="width: 110%;"/>
 
-licenses
+.cite[Idea from R. Darst, adapted]
+
+- Whether you can share your output depends on how you obtained your input.
+- Software licenses matter.
+- Sometimes "OTHERS" are you yourself in the future.
 
 ---
 
