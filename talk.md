@@ -122,6 +122,26 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
+## CodeRefinery: lessons learned
+
+### Demand
+
+- .emph[Demand for training] is huge.
+- [The Carpentries](https://carpentries.org) offer great courses in basics but there is .emph[need for more advanced courses].
+
+### Collaborative version control
+
+- Around a third of workshop participants are new to .emph[version control].
+- Very few participants use .emph[code review] and .emph[automated testing] before arriving at our workshop.
+
+### FAIR
+
+- .emph[Software licensing and copyright] aspects are new to most participants.
+- Code publishing and .emph[code citation principles] are new to most participants.
+- .emph[FAIR principles] in software management are far from standard.
+
+---
+
 the paper
 
 ---
