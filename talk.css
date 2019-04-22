@@ -54,3 +54,9 @@ a {
 .emph {
   background-color: #c8deff;
 }
+
+.quote {
+  color: #ff0000;
+  font-style: italic;
+  font-size: 30px;
+}
