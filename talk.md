@@ -181,7 +181,30 @@ Code review should become a standard practice
 
 ---
 
-FAIR
+## FAIR principles
+
+The FAIR Guiding Principles for scientific **data** management and stewardship (https://www.nature.com/articles/sdata201618):
+
+- To be .emph[**F**indable]
+- To be .emph[**A**ccessible]
+- To be .emph[**I**nteroperable]
+- To be .emph[**R**eusable]
+
+For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
+
+---
+
+## Where are software management plans?
+
+.emph[**Data** is part of research output]
+
+- Funding agencies often ask for a data management plan
+
+.emph[**Software** is part of research output]
+
+Curiosity: Not too many projects consider a software management plan **yet**.
+
+Software development should consider .emph[FAIR principles, ideally from the start].
 
 ---
 
