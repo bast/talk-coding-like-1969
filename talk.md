@@ -303,6 +303,18 @@ forking
 
 ---
 
+practical recommendations for licenses
+
+---
+
+fear of sharing
+
+---
+
+does this look like a serious project?
+
+---
+
 developer of QC code:
 "i don't have time to learn tool x, i am a chemist"
 
@@ -358,6 +370,10 @@ challenges
 ---
 
 code reading sessions
+
+---
+
+code audiences
 
 ---
 
