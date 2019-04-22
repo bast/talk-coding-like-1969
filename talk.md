@@ -143,7 +143,19 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
-the paper
+## "The publication of scientific Fortran programs"
+
+<img src="img/roberts1.jpg" style="width: 100%;"/>
+
+.cite[https://doi.org/10.1016/0010-4655(69)90011-3]
+
+---
+
+## "The publication of scientific Fortran programs"
+
+<img src="img/roberts2.jpg" style="width: 100%;"/>
+
+.cite[https://doi.org/10.1016/0010-4655(69)90011-3]
 
 ---
 
