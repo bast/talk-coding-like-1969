@@ -146,10 +146,6 @@ the paper
 
 ---
 
-Publishing computational results without accompanying code will become unacceptable
-
----
-
 class: center, middle, inverse
 
 ## Software reproducibility 10-year challenge:
@@ -173,7 +169,48 @@ class: center, middle, inverse
 
 ---
 
-Public access today may not be enough to make software findable and accessible in the future
+## Have you ever seen these sentences?
+
+.quote["software used in this study is available upon request"]
+
+- What does this mean in terms of findability and accessibility?
+
+.quote["we have used a locally modified version of code X"]
+
+- What does this mean in terms of findability, accessibility, and reproducibility?
+
+---
+
+## Publishing computational results without accompanying code will become unacceptable
+
+.quote["With some exceptions, anything else than the release of source programs is intolerable for results that depend on computation"]
+.cite[Ince, D. C., Hatton, L. & Graham-Cumming, J., Nature 482, 485 (2012)]
+
+.quote["Programs should be published in source language (rather than binary)"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+.quote["The scientific community should always be able to verify that a published program will produce correct results"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+---
+
+## Public access alone may not be enough
+
+- Putting your code on GitHub/GitLab does not guarantee that the software is findable and accessible in the future.
+- How about the persistence of the service and repository and versions?
+- The average lifetime of a web address has been estimated to be 44 days. .cite[Kahle, B. Preserving the Internet. Scientific American (July 27, 1998)]
+- Assigning a .emph[digital object identifier] (DOI) to the version referenced in a published manuscript .emph[is a must].
+
+### Great services to get a DOI:
+
+- [Zenodo](https://zenodo.org)
+- [Open Science Framework](https://osf.io)
+- [Software Heritage](https://www.softwareheritage.org)
+- [Dataverse](https://dataverse.org)
+- [Figshare](https://figshare.com)
+
+.quote["A published program will form part of a permanent international literature"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
 
 ---
 
@@ -246,10 +283,6 @@ social coding
 in/out
 
 licenses
-
----
-
-doi
 
 ---
 

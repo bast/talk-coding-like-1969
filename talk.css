@@ -60,3 +60,14 @@ a {
   font-style: italic;
   font-size: 30px;
 }
+
+.cite {
+  font-size: 14px;
+  color: #505050;
+}
+.cite:before {
+  content: "[";
+}
+.cite:after {
+  content: "]";
+}
