@@ -258,10 +258,6 @@ Software development should consider .emph[FAIR principles, ideally from the sta
 
 ---
 
-Dependencies and package management
-
----
-
 Sharing code and encouraging derivative work may boost your academic impact
 
 ---
@@ -337,19 +333,27 @@ does this look like a serious project?
 
 ---
 
-iterop
-pypi
-conda
-semver
-interop data
-
----
-
 code reading sessions
 
 ---
 
 code audiences
+
+---
+
+## FA.emph[I]R: .emph[I]nteroperability
+
+### Recommendations
+
+- C interface or Python interface
+- Make clear what is interface and what are internals
+- Semantic versioning
+- Document dependencies with versions (`requirements.txt`, `Pipenv`, `setup.py`, ...)
+- Standard packaging solutions (Conda, PyPI, ...)
+- Version-aware documentation
+- Interoperable data
+- Standard data types and serialization formats
+- Standard license
 
 ---
 
