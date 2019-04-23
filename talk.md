@@ -287,6 +287,42 @@ forking
 
 ---
 
+## Version control
+
+<img src="img/version-control.jpg" style="width: 80%;"/>
+
+---
+
+## Code review
+
+<img src="img/code-review.jpg" style="width: 80%;"/>
+
+---
+
+## Forking workflow
+
+<img src="img/forking-workflow.jpg" style="width: 80%;"/>
+
+---
+
+## Sharing papers
+
+<img src="img/sharing-papers.jpg" style="width: 80%;"/>
+
+- We want maximum visibility and maximum reuse
+
+.quote["they reinvented the wheel and don't know about my paper although I did all the ground work"]
+
+---
+
+## Sharing code
+
+<img src="img/sharing-code.jpg" style="width: 80%;"/>
+
+.quote["I did all the ground work and they get to do the interesting science?"]
+
+---
+
 ## Social coding
 
 <img src="img/in-out.jpg" style="width: 100%;"/>
