@@ -159,6 +159,37 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
+Code review should become a standard practice
+
+---
+
+## FAIR principles
+
+The FAIR Guiding Principles for scientific **data** management and stewardship (https://www.nature.com/articles/sdata201618):
+
+- To be .emph[**F**indable]
+- To be .emph[**A**ccessible]
+- To be .emph[**I**nteroperable]
+- To be .emph[**R**eusable]
+
+For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
+
+---
+
+## Where are software management plans?
+
+.emph[**Data** is part of research output]
+
+- Funding agencies often ask for a data management plan
+
+.emph[**Software** is part of research output]
+
+Curiosity: Not too many projects consider a software management plan **yet**.
+
+Software development should consider .emph[FAIR principles, ideally from the start].
+
+---
+
 class: center, middle, inverse
 
 ## Software reproducibility 10-year challenge:
@@ -224,37 +255,6 @@ class: center, middle, inverse
 
 .quote["A published program will form part of a permanent international literature"]
 .cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
-Code review should become a standard practice
-
----
-
-## FAIR principles
-
-The FAIR Guiding Principles for scientific **data** management and stewardship (https://www.nature.com/articles/sdata201618):
-
-- To be .emph[**F**indable]
-- To be .emph[**A**ccessible]
-- To be .emph[**I**nteroperable]
-- To be .emph[**R**eusable]
-
-For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
-
----
-
-## Where are software management plans?
-
-.emph[**Data** is part of research output]
-
-- Funding agencies often ask for a data management plan
-
-.emph[**Software** is part of research output]
-
-Curiosity: Not too many projects consider a software management plan **yet**.
-
-Software development should consider .emph[FAIR principles, ideally from the start].
 
 ---
 
