@@ -307,7 +307,27 @@ fear of sharing
 
 ---
 
-does this look like a serious project?
+code reading sessions
+
+---
+
+code audiences
+
+---
+
+## Does this look like a serious project?
+
+### As a .emph[developer] or .emph[user] what are you looking at when discovering a new package?
+
+These are common things to check:
+
+- Date of last code change .remark[... is the project abandoned?]
+- Release history
+- Versioning .remark[... will it be painful to upgrade?]
+- Number of open pull requests and issues - are they followed-up?
+- Installation instructions .remark[... will it be difficult to get it running?]
+- Example .remark[... will it be difficult to get started?]
+- License .remark[... am I allowed to use it?]
 
 ---
 
@@ -330,14 +350,6 @@ does this look like a serious project?
 - .emph[Python] has a rich ecosystem and very active community.
 - Prefer Python over Matlab since Python is free.
 - Rust is underrated. Python/Rust looks like a great combination.
-
----
-
-code reading sessions
-
----
-
-code audiences
 
 ---
 

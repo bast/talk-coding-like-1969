@@ -55,6 +55,11 @@ a {
   background-color: #c8deff;
 }
 
+.remark {
+  color: #8e44ad;
+  font-style: italic;
+}
+
 .quote {
   color: #ff0000;
   font-style: italic;
