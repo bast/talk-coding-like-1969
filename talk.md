@@ -373,7 +373,7 @@ class: center, middle, inverse
 
 ## Challenges
 
-## We more or less have the tools, what are we missing?
+## We more or less have the tools, **what are we missing**?
 
 ---
 
@@ -436,5 +436,5 @@ class: center, middle, inverse
 - Spending a month on learning version control, editor, scripting, 1-2 programming
   languages really well is not a waste of time.
 - Connect with other research software engineers.
-- Influence hiring committees to not only look at the number of papers.
 - Attract developers with career opportunities.
+- Influence hiring committees to not only look at the number of papers - you get what you measure.
