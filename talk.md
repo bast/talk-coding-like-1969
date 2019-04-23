@@ -258,32 +258,7 @@ class: center, middle, inverse
 
 ---
 
-Sharing code and encouraging derivative work may boost your academic impact
-
----
-
 respect version control
-
----
-
-version control without code review
-
----
-
-how code review works
-
----
-
-why code review
-
-- learning
-
----
-
-forking
-
-- licenses
-- open master
 
 ---
 
@@ -297,11 +272,22 @@ forking
 
 <img src="img/code-review.jpg" style="width: 80%;"/>
 
+- Peer review for code: review and discuss changes .emph[before they are merged]
+- Write-protect the master branch
+- .emph[Great learning opportunity]
+- Good idea if junior student reviews code of senior colleague
+- Consider code reading sessions in your group
+
 ---
 
 ## Forking workflow
 
 <img src="img/forking-workflow.jpg" style="width: 80%;"/>
+
+- Central master is public, you want maximum visibility
+- All changes to master are subject to code review
+- Private feature branches are possible
+- Do not design your own license - use a .emph[standard open source license]
 
 ---
 
@@ -320,6 +306,8 @@ forking
 <img src="img/sharing-code.jpg" style="width: 80%;"/>
 
 .quote["I did all the ground work and they get to do the interesting science?"]
+
+- Sharing code and encouraging derivative work may boost your academic impact.
 
 ---
 
@@ -340,10 +328,6 @@ practical recommendations for licenses
 ---
 
 fear of sharing
-
----
-
-code reading sessions
 
 ---
 
@@ -424,7 +408,7 @@ class: center, middle, inverse
 
 ---
 
-- Compare these two:
+Compare these two:
 
 .quote["I don't have time to learn tool X, I am a chemist"]
 .cite[developer of QC code]
@@ -432,13 +416,13 @@ class: center, middle, inverse
 .quote["I don't have time to learn how the instrument works, I am a chemist"]
 .cite[experimental spectroscopist]
 
-- Compare these two:
+Compare these two:
 
 .quote["we don't need tests, we are not a software company"]
 
 .quote["we don't need a NMR calibration sample, we are not a pharma company"]
 
-- Ever heard these:
+Ever heard these:
 
 .quote["He is just a programmer"]
 
