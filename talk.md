@@ -315,18 +315,6 @@ does this look like a serious project?
 
 ---
 
-developer of QC code:
-"i don't have time to learn tool x, i am a chemist"
-
-experimental spectroscopist:
-"i don't have time to learn how the instrument works, i am a chemist"
-
-"we don't need tests, we are not a software company"
-
-"we don't need a NMR calibration sample, we are not a pharma company"
-
----
-
 ## Programming languages
 
 - A programming language perfect for everything does not exist yet.
@@ -357,18 +345,6 @@ interop data
 
 ---
 
-Establishing a culture and the need for training
-
----
-
-credit
-
----
-
-challenges
-
----
-
 code reading sessions
 
 ---
@@ -377,6 +353,72 @@ code audiences
 
 ---
 
-conclusions
+class: center, middle, inverse
 
-link to these slides
+## Challenges
+
+## We more or less have the tools, what are we missing?
+
+---
+
+## Establishing a culture and the need for training
+
+- We need to support a culture of sharing.
+- Encourage, credit, and eventually expect openness.
+- Challenge for students and researchers, principal investigators, editors, referees,
+  funding bodies, and hiring committees.
+- Training is critical.
+- Respect towards the domain, tools, and staff.
+
+---
+
+- Compare these two:
+
+.quote["I don't have time to learn tool X, I am a chemist"]
+.cite[developer of QC code]
+
+.quote["I don't have time to learn how the instrument works, I am a chemist"]
+.cite[experimental spectroscopist]
+
+- Compare these two:
+
+.quote["we don't need tests, we are not a software company"]
+
+.quote["we don't need a NMR calibration sample, we are not a pharma company"]
+
+- Ever heard these:
+
+.quote["He is just a programmer"]
+
+.quote["This is just engineering"]
+
+.quote["In this group you will only do code optimization"]
+
+---
+
+## Credit
+
+.quote["it is important to attract the right people, and one of their main incentives will be the credit"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+- Make it possible to show their work on their CV.
+- Help creating an ecosystem where such CVs count.
+- Create and support career paths.
+
+---
+
+## Conclusions/recommendations
+
+### Link to these slides: http://bit.ly/.......
+
+- Encourage students/staff to take training.
+- Support training activities.
+- Encourage sharing and open source.
+- Don't worry so much about read access, worry more about write access.
+- Use code review in your group.
+- Consider FAIR principles from the start.
+- Spending a month on learning version control, editor, scripting, 1-2 programming
+  languages really well is not a waste of time.
+- Connect with other research software engineers.
+- Influence hiring committees to not only look at the number of papers.
+- Attract developers with career opportunities.
