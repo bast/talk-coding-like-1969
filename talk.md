@@ -16,6 +16,8 @@ class: center, middle, inverse
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
+### Slides: http://bit.ly/cecam-toulouse-bast
+
 ---
 
 ## About me
@@ -445,7 +447,7 @@ Ever heard these:
 
 ## Conclusions/recommendations
 
-### Link to these slides: http://bit.ly/.......
+### Link to these slides: http://bit.ly/cecam-toulouse-bast
 
 - Encourage students/staff to take training.
 - Support training activities.
