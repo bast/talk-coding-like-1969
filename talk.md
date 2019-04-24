@@ -453,14 +453,6 @@ Compare these two:
 
 .quote["we don't need a NMR calibration sample, we are not a pharma company"]
 
-Ever heard these:
-
-.quote["He is just a programmer"]
-
-.quote["This is just engineering"]
-
-.quote["In this group you will only do code optimization"]
-
 ---
 
 ## Credit
