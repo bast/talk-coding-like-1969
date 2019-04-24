@@ -260,13 +260,42 @@ class: center, middle, inverse
 
 ---
 
-respect version control
-
----
-
 ## Version control
 
 <img src="img/version-control.jpg" style="width: 80%;"/>
+
+- Record snapshots of the code projects as we develop
+- We can refer to precise versions
+- We can annotate lines: "when precisely was this introduced?" ([example](https://github.com/bast/smeshing/blame/master/smeshing/main.py))
+- .emph[Essential for reproducibility]
+
+---
+
+## What is the problem with this kind of "version control"?
+
+```
+mylib-1.2.4_18.3.07.tgz         somecode_CP_10.8.07.tgz
+mylib-1.2.4_27.7.07.tgz         somecode_CP_17.5.07.tgz
+mylib-1.2.4_29.4.08.tgz         somecode_CP_23.8.07_final.tgz
+mylib-1.2.4_6.10.07.tgz         somecode_CP_24.5.07.tgz
+mylib-1.2.5_23.4.08.tgz         somecode_CP_25.5.07.tgz
+mylib-1.2.5_25.5.07.tgz         somecode_CP_29.5.07.tgz
+mylib-1.2.5_6.6.07.tgz          somecode_CP_30.5.07.tgz
+mylib-1.2.5_bexc.tgz            somecode_CP_6.10.07.tgz
+mylib-1.2.5_d0.tgz              somecode_CP_6.6.07.tgz
+mylib-1.3.0_4.4.08.tgz          somecode_CP_8.6.07.tgz
+mylib-1.3.1_4.4.08.tgz          somecode_KT.tgz
+mylib-1.3.2_22.4.08.tgz         somecode_PI1_2007.tgz
+mylib-1.3.2_4.4.08.tgz          somecode_PI_2007.tgz
+mylib-1.3.2_5.4.08.tgz          somecode_PI2_2007.tgz
+mylib-1.3.3_1.5.08.tgz          somecode_PI_CP_18.3.07.tgz
+mylib-1.3.3_20.5.08.tgz         somecode_11.5.08.tgz
+mylib-1.3.3_tstrm_27.6.08.tgz   somecode_15.4.08.tgz
+mylib-1.3.3_wk_10.8.08.tgz      somecode_17.6.09_unfinished.tgz
+mylib-1.3.3_wk_11.8.08.tgz      somecode_19.7.09.tgz
+mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
+...
+```
 
 ---
 
