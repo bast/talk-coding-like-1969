@@ -161,10 +161,6 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
-Code review should become a standard practice
-
----
-
 ## FAIR principles
 
 The FAIR Guiding Principles for scientific **data** management and stewardship (https://www.nature.com/articles/sdata201618):
@@ -311,6 +307,13 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
+## Code review should become a standard practice
+
+.quote["A program should be carefully checked by colleagues [...] before it is submitted for publication [...] and it should be refereed"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+---
+
 ## Forking workflow
 
 <img src="img/forking-workflow.jpg" style="width: 80%;"/>
@@ -354,15 +357,50 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
-practical recommendations for licenses
+## Practical recommendations for licenses
+
+### Starting and contributing to a project
+
+- .emph[You cannot ignore licensing]: default is "no one can make copies or
+  derivative works".
+- License your code .emph[very early] in the project:
+  ideally develop publicly accessible open source code .emph[from day one].
+- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
+  [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
+- .emph[Do not design your own custom licenses] for open source/ open use: compatibility not clear.
+- Open source your code to make sure you are not locked out of your own code
+  once you change affiliation.
+
+
+### Licensing
+
+- Add a `LICENSE` file to your repository (GitHub understands it):
+  - Use GitHub web to add file named `LICENSE` and it helps you select!
+  - You should check that GitHub can automatically detect the license.
+- License text, slides, images, and supporting information under a
+  [Creative Commons license](https://creativecommons.org/licenses/), and get a DOI using
+  [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com).
 
 ---
 
-fear of sharing
+## Why do some researchers prefer not to share?
+
+- Fear of being scooped
+- Exposes possibly "ugly code"
+- Others may find bugs
+- Others may require support and ask too many questions
+- Fear of losing control over the direction of the project
+- "Bad" derivative projects may appear - fear that this will harm the reputation
 
 ---
 
-code audiences
+## Who is the audience that will read your code?
+
+### - Machines
+### - People
+
+.quote["Write each program, quite deliberately, for other people to read and understand"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
 
 ---
 
