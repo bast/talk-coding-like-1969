@@ -295,17 +295,6 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
-## Forking workflow
-
-<img src="img/forking-workflow.jpg" style="width: 80%;"/>
-
-- Central master is public, you want maximum visibility
-- All changes to master are subject to code review
-- Private feature branches are possible
-- Do not design your own license - use a .emph[standard open source license]
-
----
-
 ## Sharing papers
 
 <img src="img/sharing-papers.jpg" style="width: 80%;"/>
@@ -327,12 +316,22 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ## Why do some researchers prefer not to share?
 
-- Fear of being scooped
+- **Fear of being scooped**
 - Exposes possibly "ugly code"
 - Others may find bugs
 - Others may require support and ask too many questions
 - Fear of losing control over the direction of the project
 - "Bad" derivative projects may appear - fear that this will harm the reputation
+
+---
+
+## Forking workflow
+
+<img src="img/forking-workflow.jpg" style="width: 100%;"/>
+
+- Central master is public, you want maximum visibility
+- All changes to master are subject to code review
+- Private feature branches are possible
 
 ---
 
@@ -349,8 +348,6 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 ---
 
 ## Practical recommendations for licenses
-
-### Starting and contributing to a project
 
 - .emph[You cannot ignore licensing]: default is "no one can make copies or
   derivative works".
@@ -424,6 +421,35 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
+## Who is the audience that will read your code?
+
+### - Machines
+### - People
+
+.quote["Write each program, quite deliberately, for other people to read and understand"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+.quote["Many programs remain in use much longer than their authors originally expect"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+---
+
+## Does this look like a serious project?
+
+### As a .emph[developer] or .emph[user] what are you looking at when discovering a new package?
+
+These are common things to check:
+
+- Date of last code change .remark[... is the project abandoned?]
+- Release history
+- Versioning .remark[... will it be painful to upgrade?]
+- Number of open pull requests and issues - are they followed-up?
+- Installation instructions .remark[... will it be difficult to get it running?]
+- Example .remark[... will it be difficult to get started?]
+- License .remark[... am I allowed to use it?]
+
+---
+
 class: center, middle, inverse
 
 ## Challenges
@@ -467,35 +493,6 @@ Compare these two:
 - Make it possible to show their work on their CV.
 - Help creating an ecosystem where such CVs count.
 - Create and support career paths.
-
----
-
-## Who is the audience that will read your code?
-
-### - Machines
-### - People
-
-.quote["Write each program, quite deliberately, for other people to read and understand"]
-.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
-.quote["Many programs remain in use much longer than their authors originally expect"]
-.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
-## Does this look like a serious project?
-
-### As a .emph[developer] or .emph[user] what are you looking at when discovering a new package?
-
-These are common things to check:
-
-- Date of last code change .remark[... is the project abandoned?]
-- Release history
-- Versioning .remark[... will it be painful to upgrade?]
-- Number of open pull requests and issues - are they followed-up?
-- Installation instructions .remark[... will it be difficult to get it running?]
-- Example .remark[... will it be difficult to get started?]
-- License .remark[... am I allowed to use it?]
 
 ---
 
