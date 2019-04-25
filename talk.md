@@ -362,6 +362,14 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
+class: center, middle, inverse
+
+## Code is on GitHub with a standard open source license
+
+# Is this enough?
+
+---
+
 ## Public access alone may not be enough
 
 - Putting your code on GitHub/GitLab does not guarantee that the software is findable and accessible in the future.
