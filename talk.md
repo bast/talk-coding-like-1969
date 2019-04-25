@@ -44,11 +44,12 @@ UiT The Arctic University of Norway
 ]
 
 .right-column[
-### Credits
+### Credits/inspiration
 
 - Roberto Di Remigio
 - Jonas Juselius
 - Richard Darst
+- Thor Wikfeldt
 - CodeRefinery team
 ]
 
@@ -384,35 +385,25 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
-## Who is the audience that will read your code?
+## FA.emph[I]R: .emph[I]nteroperability
 
-### - Machines
-### - People
+### Recommendations
 
-.quote["Write each program, quite deliberately, for other people to read and understand"]
-.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
-## Does this look like a serious project?
-
-### As a .emph[developer] or .emph[user] what are you looking at when discovering a new package?
-
-These are common things to check:
-
-- Date of last code change .remark[... is the project abandoned?]
-- Release history
-- Versioning .remark[... will it be painful to upgrade?]
-- Number of open pull requests and issues - are they followed-up?
-- Installation instructions .remark[... will it be difficult to get it running?]
-- Example .remark[... will it be difficult to get started?]
-- License .remark[... am I allowed to use it?]
+- C interface or Python interface
+- Make clear what is interface and what are internals
+- Semantic versioning
+- Document dependencies with versions (`requirements.txt`, `Pipenv`, `setup.py`, ...)
+- Standard packaging solutions (Conda, PyPI, ...)
+- Version-aware documentation
+- Interoperable data
+- Standard data types and serialization formats
+- Standard license
 
 ---
 
 ## Programming languages
 
-- A programming language perfect for everything does not exist yet.
+- A programming language perfect for everything does not exist.
 - Each language has its .emph[own strengths].
 - .emph[Often we do not have the choice] since we enter an existing project.
 - If you choose an exotic programming language, you may get fewer .emph[collaborators].
@@ -429,22 +420,7 @@ These are common things to check:
 - .emph[Python] has a rich ecosystem and very active community.
 - Prefer Python over Matlab since Python is free.
 - Rust is underrated. Python/Rust looks like a great combination.
-
----
-
-## FA.emph[I]R: .emph[I]nteroperability
-
-### Recommendations
-
-- C interface or Python interface
-- Make clear what is interface and what are internals
-- Semantic versioning
-- Document dependencies with versions (`requirements.txt`, `Pipenv`, `setup.py`, ...)
-- Standard packaging solutions (Conda, PyPI, ...)
-- Version-aware documentation
-- Interoperable data
-- Standard data types and serialization formats
-- Standard license
+- Object-oriented programming is often not the answer.
 
 ---
 
@@ -491,6 +467,35 @@ Compare these two:
 - Make it possible to show their work on their CV.
 - Help creating an ecosystem where such CVs count.
 - Create and support career paths.
+
+---
+
+## Who is the audience that will read your code?
+
+### - Machines
+### - People
+
+.quote["Write each program, quite deliberately, for other people to read and understand"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+.quote["Many programs remain in use much longer than their authors originally expect"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+---
+
+## Does this look like a serious project?
+
+### As a .emph[developer] or .emph[user] what are you looking at when discovering a new package?
+
+These are common things to check:
+
+- Date of last code change .remark[... is the project abandoned?]
+- Release history
+- Versioning .remark[... will it be painful to upgrade?]
+- Number of open pull requests and issues - are they followed-up?
+- Installation instructions .remark[... will it be difficult to get it running?]
+- Example .remark[... will it be difficult to get started?]
+- License .remark[... am I allowed to use it?]
 
 ---
 
