@@ -145,22 +145,6 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
-## "The publication of scientific Fortran programs"
-
-<img src="img/roberts1.jpg" style="width: 100%;"/>
-
-.cite[https://doi.org/10.1016/0010-4655(69)90011-3]
-
----
-
-## "The publication of scientific Fortran programs"
-
-<img src="img/roberts2.jpg" style="width: 100%;"/>
-
-.cite[https://doi.org/10.1016/0010-4655(69)90011-3]
-
----
-
 ## FAIR principles
 
 The FAIR Guiding Principles for scientific **data** management and stewardship (https://www.nature.com/articles/sdata201618):
@@ -236,23 +220,19 @@ class: center, middle, inverse
 
 ---
 
-## Public access alone may not be enough
+## "The publication of scientific Fortran programs"
 
-- Putting your code on GitHub/GitLab does not guarantee that the software is findable and accessible in the future.
-- How about the persistence of the service and repository and versions?
-- The average lifetime of a web address has been estimated to be 44 days. .cite[Kahle, B. Preserving the Internet. Scientific American (July 27, 1998)]
-- Assigning a .emph[digital object identifier] (DOI) to the version referenced in a published manuscript .emph[is a must].
+<img src="img/roberts1.jpg" style="width: 100%;"/>
 
-### Great services to get a DOI:
+.cite[https://doi.org/10.1016/0010-4655(69)90011-3]
 
-- [Zenodo](https://zenodo.org)
-- [Open Science Framework](https://osf.io)
-- [Software Heritage](https://www.softwareheritage.org)
-- [Dataverse](https://dataverse.org)
-- [Figshare](https://figshare.com)
+---
 
-.quote["A published program will form part of a permanent international literature"]
-.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+## "The publication of scientific Fortran programs"
+
+<img src="img/roberts2.jpg" style="width: 100%;"/>
+
+.cite[https://doi.org/10.1016/0010-4655(69)90011-3]
 
 ---
 
@@ -325,6 +305,26 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
+## Public access alone may not be enough
+
+- Putting your code on GitHub/GitLab does not guarantee that the software is findable and accessible in the future.
+- How about the persistence of the service and repository and versions?
+- The average lifetime of a web address has been estimated to be 44 days. .cite[Kahle, B. Preserving the Internet. Scientific American (July 27, 1998)]
+- Assigning a .emph[digital object identifier] (DOI) to the version referenced in a published manuscript .emph[is a must].
+
+### Great services to get a DOI:
+
+- [Zenodo](https://zenodo.org)
+- [Open Science Framework](https://osf.io)
+- [Software Heritage](https://www.softwareheritage.org)
+- [Dataverse](https://dataverse.org)
+- [Figshare](https://figshare.com)
+
+.quote["A published program will form part of a permanent international literature"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+---
+
 ## Sharing papers
 
 <img src="img/sharing-papers.jpg" style="width: 80%;"/>
@@ -366,19 +366,10 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
   ideally develop publicly accessible open source code .emph[from day one].
 - Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
   [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
+- Add a `LICENSE` file to your repository.
 - .emph[Do not design your own custom licenses] for open source/ open use: compatibility not clear.
 - Open source your code to make sure you are not locked out of your own code
   once you change affiliation.
-
-
-### Licensing
-
-- Add a `LICENSE` file to your repository (GitHub understands it):
-  - Use GitHub web to add file named `LICENSE` and it helps you select!
-  - You should check that GitHub can automatically detect the license.
-- License text, slides, images, and supporting information under a
-  [Creative Commons license](https://creativecommons.org/licenses/), and get a DOI using
-  [Zenodo](https://zenodo.org) or [Figshare](https://figshare.com).
 
 ---
 
