@@ -16,7 +16,7 @@ class: center, middle, inverse
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
-### Slides: http://bit.ly/cecam-toulouse-bast
+## Slides: http://bit.ly/cecam-toulouse-bast
 
 ---
 
@@ -182,9 +182,9 @@ For a discussion of FAIR in the context of software, see https://softdev4researc
 
 .emph[**Software** is part of research output]
 
-Curiosity: Not too many projects consider a software management plan **yet**.
-
-Software development should consider .emph[FAIR principles, ideally from the start].
+- Curiosity: Not many projects consider a software management plan **yet**.
+- Software development should consider .emph[FAIR principles, ideally from the start].
+- At the minimum, students and supervisors should discuss this.
 
 ---
 
@@ -329,9 +329,8 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 <img src="img/sharing-papers.jpg" style="width: 80%;"/>
 
-- We want maximum visibility and maximum reuse
-
-.quote["they reinvented the wheel and don't know about my paper although I did all the ground work"]
+- We want maximum visibility and maximum reuse.
+- The more interesting science is done referencing my paper, the better for me.
 
 ---
 
