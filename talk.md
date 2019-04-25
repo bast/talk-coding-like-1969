@@ -509,7 +509,8 @@ Compare these two:
 ### Link to these slides: http://bit.ly/cecam-toulouse-bast
 
 - Encourage students/staff to take training.
-- Support training activities.
+- Support training activities:
+  **tell your university leaders about Carpentries and CodeRefinery**.
 - Encourage sharing and open source.
 - Don't worry so much about read access, worry more about write access.
 - Use code review in your group.
