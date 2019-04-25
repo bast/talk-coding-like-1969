@@ -306,26 +306,6 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
-## Public access alone may not be enough
-
-- Putting your code on GitHub/GitLab does not guarantee that the software is findable and accessible in the future.
-- How about the persistence of the service and repository and versions?
-- The average lifetime of a web address has been estimated to be 44 days. .cite[Kahle, B. Preserving the Internet. Scientific American (July 27, 1998)]
-- Assigning a .emph[digital object identifier] (DOI) to the version referenced in a published manuscript .emph[is a must].
-
-### Great services to get a DOI:
-
-- [Zenodo](https://zenodo.org)
-- [Open Science Framework](https://osf.io)
-- [Software Heritage](https://www.softwareheritage.org)
-- [Dataverse](https://dataverse.org)
-- [Figshare](https://figshare.com)
-
-.quote["A published program will form part of a permanent international literature"]
-.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
 ## Sharing papers
 
 <img src="img/sharing-papers.jpg" style="width: 80%;"/>
@@ -342,6 +322,17 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 .quote["I did all the ground work and they get to do the interesting science?"]
 
 - Sharing code and encouraging derivative work may boost your academic impact.
+
+---
+
+## Why do some researchers prefer not to share?
+
+- Fear of being scooped
+- Exposes possibly "ugly code"
+- Others may find bugs
+- Others may require support and ask too many questions
+- Fear of losing control over the direction of the project
+- "Bad" derivative projects may appear - fear that this will harm the reputation
 
 ---
 
@@ -374,14 +365,23 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
-## Why do some researchers prefer not to share?
+## Public access alone may not be enough
 
-- Fear of being scooped
-- Exposes possibly "ugly code"
-- Others may find bugs
-- Others may require support and ask too many questions
-- Fear of losing control over the direction of the project
-- "Bad" derivative projects may appear - fear that this will harm the reputation
+- Putting your code on GitHub/GitLab does not guarantee that the software is findable and accessible in the future.
+- How about the persistence of the service and repository and versions?
+- The average lifetime of a web address has been estimated to be 44 days. .cite[Kahle, B. Preserving the Internet. Scientific American (July 27, 1998)]
+- Assigning a .emph[digital object identifier] (DOI) to the version referenced in a published manuscript .emph[is a must].
+
+### Great services to get a DOI:
+
+- [Zenodo](https://zenodo.org)
+- [Open Science Framework](https://osf.io)
+- [Software Heritage](https://www.softwareheritage.org)
+- [Dataverse](https://dataverse.org)
+- [Figshare](https://figshare.com)
+
+.quote["A published program will form part of a permanent international literature"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
 
 ---
 
