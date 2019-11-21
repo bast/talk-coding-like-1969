@@ -9,25 +9,31 @@
 
 class: center, middle, inverse
 
-# Research software engineering recipes for the next two decades
+# Research software engineering recipes for the next decade
 
 ## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
 
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
-## Slides: http://bit.ly/cecam-toulouse-bast
+## Slides: http://example.com
 
 ---
 
 ## About me
 
+.left-column[
+<img src="img/avatar.jpeg" style="width: 50%;"/>
+
 - Theoretical chemist turned research software engineer.
+- PhD at LCQ 2004-2008.
 - I write research software and teach programming to researchers and lead the
   [CodeRefinery project](https://coderefinery.org).
+- Co-author of the CMake Cookbook.
+]
 
-.left-column[
-### Projects
+.right-column[
+### Code projects
 
 - DIRAC
 - Dalton
@@ -41,16 +47,8 @@ UiT The Arctic University of Norway
 - Runtest
 - Sonar
 - Smeshing
-]
-
-.right-column[
-### Credits/inspiration
-
-- Roberto Di Remigio
-- Jonas Juselius
-- Richard Darst
-- Thor Wikfeldt
-- CodeRefinery team
+- Blob
+- SMARTool
 ]
 
 ---
@@ -60,28 +58,31 @@ UiT The Arctic University of Norway
 We teach tools and practices for the
 development of reproducible and reusable research software.
 
-<img src="img/map.jpg" style="width: 50%;"/>
+.left-column[
+<img src="img/map.jpg" style="width: 100%;"/>
 
 - https://coderefinery.org
 - https://coderefinery.org/workshops/
+]
+.right-column[
+<img src="img/coderefinery.png" style="padding-left: 30px; width: 80%;"/>
+]
 
 ---
 
 ## CodeRefinery
 
-- We have trained .emph[over 550 students and researchers]
+- We have trained .emph[over 600 students and researchers]
 - Across all academic disciplines
-- Funding for 2.5 more years
+- Funding for 2 more years
 
+.left-column[
 ### Our goal
 
 Advance .emph[FAIRness] of software management and development practices so that research groups can
 .emph[collaboratively develop], review, discuss, test, share, and reuse their codes.
-
----
-
-## CodeRefinery
-
+]
+.right-column[
 ### Our [lessons](https://coderefinery.org/lessons/)
 
 - Basic and collaborative Git
@@ -94,33 +95,13 @@ Advance .emph[FAIRness] of software management and development practices so that
 - Social coding and open software
 - Modular code development
 - Reproducible research
+]
 
 ---
 
-## Goals for this talk
-
-### - Lessons learned from teaching 20 workshops on research software engineering
-
-### - Challenges for the next two decades
-
-- FAIRness in research software development
-- Peer review and code review
-- Software engineering and academic credit
-- Training needs
-
----
-
-## CodeRefinery: what is our impact? (1/2)
+## CodeRefinery: what is our impact?
 
 <img src="img/impact1.png" style="width: 80%;"/>
-
-.footnote[https://coderefinery.org]
-
----
-
-## CodeRefinery: what is our impact? (2/2)
-
-<img src="img/impact2.png" style="width: 70%;"/>
 
 .footnote[https://coderefinery.org]
 
@@ -146,33 +127,6 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
-## FAIR principles
-
-The FAIR Guiding Principles for scientific **data** management and stewardship (https://www.nature.com/articles/sdata201618):
-
-- To be .emph[**F**indable]
-- To be .emph[**A**ccessible]
-- To be .emph[**I**nteroperable]
-- To be .emph[**R**eusable]
-
-For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
-
----
-
-## Where are software management plans?
-
-.emph[**Data** is part of research output]
-
-- Funding agencies often ask for a data management plan
-
-.emph[**Software** is part of research output]
-
-- Curiosity: Not many projects consider a software management plan **yet**.
-- Software development should consider .emph[FAIR principles, ideally from the start].
-- At the minimum, students and supervisors should discuss this.
-
----
-
 class: center, middle, inverse
 
 ## Software reproducibility 10-year challenge:
@@ -188,7 +142,7 @@ class: center, middle, inverse
 - Can you still .emph[find] your code?
 - It was probably not on GitHub (GitHub launched only 11 years ago, GitLab is only 6 years old).
 - Can you bring it to a .emph[well-defined state]?
-- Can you bring its documentation to refer to the same state?
+- Can you find corresponding documentation?
 - How about .emph[external dependencies]? Have you locked their versions?
 - Have you used Git submodules? Have they moved?
 - Any hard-coded paths?
@@ -237,64 +191,6 @@ class: center, middle, inverse
 
 ---
 
-## Version control
-
-<img src="img/version-control.jpg" style="width: 80%;"/>
-
-- Record snapshots of the code projects as we develop
-- We can refer to precise versions
-- We can annotate lines: "when precisely was this introduced?" ([example](https://github.com/bast/smeshing/blame/master/smeshing/main.py))
-- .emph[Essential for reproducibility]
-
----
-
-## What is the problem with this kind of "version control"?
-
-```
-mylib-1.2.4_18.3.07.tgz         somecode_CP_10.8.07.tgz
-mylib-1.2.4_27.7.07.tgz         somecode_CP_17.5.07.tgz
-mylib-1.2.4_29.4.08.tgz         somecode_CP_23.8.07_final.tgz
-mylib-1.2.4_6.10.07.tgz         somecode_CP_24.5.07.tgz
-mylib-1.2.5_23.4.08.tgz         somecode_CP_25.5.07.tgz
-mylib-1.2.5_25.5.07.tgz         somecode_CP_29.5.07.tgz
-mylib-1.2.5_6.6.07.tgz          somecode_CP_30.5.07.tgz
-mylib-1.2.5_bexc.tgz            somecode_CP_6.10.07.tgz
-mylib-1.2.5_d0.tgz              somecode_CP_6.6.07.tgz
-mylib-1.3.0_4.4.08.tgz          somecode_CP_8.6.07.tgz
-mylib-1.3.1_4.4.08.tgz          somecode_KT.tgz
-mylib-1.3.2_22.4.08.tgz         somecode_PI1_2007.tgz
-mylib-1.3.2_4.4.08.tgz          somecode_PI_2007.tgz
-mylib-1.3.2_5.4.08.tgz          somecode_PI2_2007.tgz
-mylib-1.3.3_1.5.08.tgz          somecode_PI_CP_18.3.07.tgz
-mylib-1.3.3_20.5.08.tgz         somecode_11.5.08.tgz
-mylib-1.3.3_tstrm_27.6.08.tgz   somecode_15.4.08.tgz
-mylib-1.3.3_wk_10.8.08.tgz      somecode_17.6.09_unfinished.tgz
-mylib-1.3.3_wk_11.8.08.tgz      somecode_19.7.09.tgz
-mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
-...
-```
-
----
-
-## Code review
-
-<img src="img/code-review.jpg" style="width: 80%;"/>
-
-- Peer review for code: review and discuss changes .emph[before they are merged]
-- Write-protect the master branch
-- .emph[Great learning opportunity]
-- Good idea if junior student reviews code of senior colleague
-- Consider code reading sessions in your group
-
----
-
-## Code review should become a standard practice
-
-.quote["A program should be carefully checked by colleagues [...] before it is submitted for publication [...] and it should be refereed"]
-.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
 ## Sharing papers
 
 <img src="img/sharing-papers.jpg" style="width: 80%;"/>
@@ -314,24 +210,23 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 
 ---
 
-## Why do some researchers prefer not to share?
+## Code review should become a standard practice
 
-- **Fear of being scooped**
-- Exposes possibly "ugly code"
-- Others may find bugs
-- Others may require support and ask too many questions
-- Fear of losing control over the direction of the project
-- "Bad" derivative projects may appear - fear that this will harm the reputation
+.quote["A program should be carefully checked by colleagues [...] before it is submitted for publication [...] and it should be refereed"]
+.cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
 
 ---
 
-## Forking workflow
+## Code review
 
-<img src="img/forking-workflow.jpg" style="width: 100%;"/>
+<img src="img/code-review.jpg" style="width: 80%;"/>
 
-- Central master is public, you want maximum visibility
-- All changes to master are subject to code review
-- Private feature branches are possible
+.cite["A FAIRer future" Nat. Phys. 15, 728–730 (2019), https://doi.org/10.1038/s41567-019-0624-3]
+
+- Review and discuss changes .emph[before they are merged]
+- Good idea if junior student reviews code of senior colleague
+- .emph[Great learning opportunity]
+- Consider code reading sessions in your group
 
 ---
 
@@ -342,23 +237,8 @@ mylib-1.3.3_wk_13.8.08.tgz      somecode-20.7.09.tgz
 .cite[Idea: R. Darst, adapted]
 
 - Whether you can share your output depends on how you obtained your input.
-- Software licenses matter.
+- .emph[Software licenses matter].
 - Sometimes "OTHERS" are you yourself in the future.
-
----
-
-## Practical recommendations for licenses
-
-- .emph[You cannot ignore licensing]: default is "no one can make copies or
-  derivative works".
-- License your code .emph[very early] in the project:
-  ideally develop publicly accessible open source code .emph[from day one].
-- Take an [OSI](https://opensource.org/licenses)-approved license: makes it easier to evaluate
-  [compatibility](https://en.wikipedia.org/wiki/License_compatibility).
-- Add a `LICENSE` file to your repository.
-- .emph[Do not design your own custom licenses] for open source/ open use: compatibility not clear.
-- Open source your code to make sure you are not locked out of your own code
-  once you change affiliation.
 
 ---
 
@@ -390,71 +270,36 @@ class: center, middle, inverse
 
 ---
 
-## FA.emph[I]R: .emph[I]nteroperability
+class: center, middle, inverse
 
-### Recommendations
-
-- C interface or Python interface
-- Make clear what is interface and what are internals
-- Semantic versioning
-- Document dependencies with versions (`requirements.txt`, `Pipenv`, `setup.py`, ...)
-- Standard packaging solutions (Conda, PyPI, ...)
-- Version-aware documentation
-- Interoperable data
-- Standard data types and serialization formats
-- Standard license
+## Programming languages
 
 ---
 
-## Programming languages
+## "Which programming language do you recommend?"
 
 - A programming language perfect for everything does not exist.
 - Each language has its .emph[own strengths].
 - .emph[Often we do not have the choice] since we enter an existing project.
 - If you choose an exotic programming language, you may get fewer .emph[collaborators].
 
-### It is important that we learn/teach how to interface languages
-
-- C is the *lingua franca*.
-- Python/C (CFFI)
-- Python/C++ (pybind11)
-- Python/Fortran (CFFI via `iso_c_binding`)
-
 ### Personal opinions
 
 - .emph[Python] has a rich ecosystem and very active community.
 - Prefer Python over Matlab since Python is free.
-- Rust is underrated. Python/Rust looks like a great combination.
-- Object-oriented programming is often not the answer.
+- Rust and Julia are very interesting emerging languages.
+- Object-oriented programming is often not the answer: it introduces
+  an implicit time-dependence into your functions.
 
 ---
 
-## Who is the audience that will read your code?
-
-### - Machines
-### - People
+## Write programs for people
 
 .quote["Write each program, quite deliberately, for other people to read and understand"]
 .cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
 
 .quote["Many programs remain in use much longer than their authors originally expect"]
 .cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
-## Does this look like a serious project?
-
-### As a .emph[developer] or .emph[user] what are you looking at when discovering a new package?
-
-These are common things to check:
-
-- Date of last code change .remark[... is the project abandoned?]
-- Release history
-- Versioning .remark[... will it be painful to upgrade?]
-- Number of open pull requests and issues - are they followed-up?
-- Installation instructions .remark[... will it be difficult to get it running?]
-- Example .remark[... will it be difficult to get started?]
-- License .remark[... am I allowed to use it?]
 
 ---
 
@@ -468,28 +313,11 @@ class: center, middle, inverse
 
 ## Establishing a culture and the need for training
 
-- We need to support a culture of sharing.
+- We need to support a .emph[culture of sharing].
 - Encourage, credit, and eventually expect openness.
 - Challenge for students and researchers, principal investigators, editors, referees,
   funding bodies, and hiring committees.
-- Training is critical.
-- Respect towards the domain, tools, and staff.
-
----
-
-Compare these two:
-
-.quote["I don't have time to learn tool X, I am a chemist"]
-.cite[developer of QC code]
-
-.quote["I don't have time to learn how the instrument works, I am a chemist"]
-.cite[experimental spectroscopist]
-
-Compare these two:
-
-.quote["we don't need tests, we are not a software company"]
-
-.quote["we don't need a NMR calibration sample, we are not a pharma company"]
+- .emph[Training is critical].
 
 ---
 
@@ -500,23 +328,36 @@ Compare these two:
 
 - Make it possible to show their work on their CV.
 - Help creating an ecosystem where such CVs count.
-- Create and support career paths.
+- Create and support .emph[career paths].
+
+---
+
+## Research software engineers
+
+<img src="img/rse.jpg" style="width: 80%;"/>
+
+.cite[https://slides.com/simonhettrick/why-recognising-scientific-software-experts-is-key-to-open-science#/4/2]
+
+---
+
+<img src="img/tweet.jpg" style="width: 80%;"/>
+
+.cite[https://twitter.com/walkingrandomly/status/1195040508239851521]
 
 ---
 
 ## Conclusions/recommendations
 
-### Link to these slides: http://bit.ly/cecam-toulouse-bast
+### Link to these slides: http://example.com
 
-- Encourage students/staff to take training.
-- Support training activities:
+- Encourage students/staff to take training. **Next week I will teach in Lille!**
+- Support .emph[training activities]:
   **tell your university leaders about Carpentries and CodeRefinery**.
-- Encourage sharing and open source.
-- Don't worry so much about read access, worry more about write access.
-- Use code review in your group.
+- .emph[Encourage sharing] and open source.
+- Use .emph[code review] in your group.
 - Consider FAIR principles from the start.
 - Spending a month on learning version control, editor, scripting, 1-2 programming
   languages really well is not a waste of time.
 - Connect with other research software engineers.
-- Attract developers with career opportunities.
-- Influence hiring committees to not only look at the number of papers - you get what you measure.
+- Attract developers with .emph[career opportunities].
+- .emph[Influence hiring committees] to not only look at the number of papers - we get what we measure.
