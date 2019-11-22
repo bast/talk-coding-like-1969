@@ -304,12 +304,9 @@ class: center, middle, inverse
 
 ## Public access alone may not be enough
 
-- Putting your code on GitHub/GitLab does not guarantee that the software is findable and accessible in the future.
-- How about the persistence of the service and repository and versions?
-- The average lifetime of a web address has been estimated to be 44 days. .cite[Kahle, B. Preserving the Internet. Scientific American (July 27, 1998)]
 - Assigning a .emph[digital object identifier] (DOI) to the version referenced in a published manuscript .emph[is a must].
 
-### Great services to get a DOI:
+### Great services to get a DOI
 
 - [Zenodo](https://zenodo.org)
 - [Open Science Framework](https://osf.io)
@@ -319,6 +316,12 @@ class: center, middle, inverse
 
 .quote["A published program will form part of a permanent international literature"]
 .cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
+
+### Publishing papers about software
+
+- [The Journal of Open Source Software](https://joss.theoj.org/about)
+- [In which journals should I publish my software?](https://www.software.ac.uk/resources/guides/which-journals-should-i-publish-my-software)
+- https://www.force11.org/software-citation-principles
 
 ---
 
