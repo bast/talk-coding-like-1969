@@ -16,7 +16,7 @@ class: center, middle, inverse
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
-## Slides: http://example.com
+## Slides: http://bit.ly/strasbourg50
 
 ---
 
@@ -348,7 +348,7 @@ class: center, middle, inverse
 
 ## Conclusions/recommendations
 
-### Link to these slides: http://example.com
+### Link to these slides: http://bit.ly/strasbourg50
 
 - Encourage students/staff to take training. **Next week I will teach in Lille!**
 - Support .emph[training activities]:
