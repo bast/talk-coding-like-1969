@@ -20,6 +20,12 @@ UiT The Arctic University of Norway
 
 ---
 
+<img src="img/nat-phys.png" style="width: 100%;"/>
+
+.cite["A FAIRer future" Nat. Phys. 15, 728–730 (2019), https://doi.org/10.1038/s41567-019-0624-3]
+
+---
+
 ## About me
 
 .left-column[
