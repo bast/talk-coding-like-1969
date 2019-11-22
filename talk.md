@@ -156,6 +156,16 @@ class: center, middle, inverse
 
 ---
 
+<img src="img/reprohack.png" style="width: 50%;"/>
+
+ReproHack is a one day, hands-on reproducibility hackathon
+
+- https://reprohack.github.io/reprohack-hq/
+- [Reprohacking at CarpentryConnect Manchester 2019](https://software.ac.uk/blog/2019-08-07-reprohacking-carpentryconnect-manchester-2019)
+- [ReproHack: one-day reproducibility hackathons (Anna Krystalli)](https://annakrystalli.me/talks/ro-reprohack.html)
+
+---
+
 ## Have you ever seen these sentences?
 
 .quote["software used in this study is available upon request"]
