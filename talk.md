@@ -168,6 +168,21 @@ class: center, middle, inverse
 
 ---
 
+## Great project: Software Heritage
+
+### https://www.softwareheritage.org
+
+### [@swheritage](https://twitter.com/swheritage)
+
+Building the universal software archive.
+
+Collects, preserves, and shares software source code for present and future
+generations.
+
+.emph[Initiated by Inria], the French national research institute for the digital sciences.
+
+---
+
 ## Publishing computational results without accompanying code will become unacceptable
 
 .quote["With some exceptions, anything else than the release of source programs is intolerable for results that depend on computation"]
