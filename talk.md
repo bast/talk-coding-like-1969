@@ -293,24 +293,9 @@ class: center, middle, inverse
 
 class: center, middle, inverse
 
-## Programming languages
+## Challenges
 
----
-
-## "Which programming language do you recommend?"
-
-- A programming language perfect for everything does not exist.
-- Each language has its .emph[own strengths].
-- .emph[Often we do not have the choice] since we enter an existing project.
-- If you choose an exotic programming language, you may get fewer .emph[collaborators].
-
-### Personal opinions
-
-- .emph[Python] has a rich ecosystem and very active community.
-- Prefer Python over Matlab since Python is free.
-- Rust and Julia are very interesting emerging languages.
-- Object-oriented programming is often not the answer: it introduces
-  an implicit time-dependence into your functions.
+## We more or less have the tools, **what are we missing**?
 
 ---
 
@@ -321,14 +306,6 @@ class: center, middle, inverse
 
 .quote["Many programs remain in use much longer than their authors originally expect"]
 .cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
-class: center, middle, inverse
-
-## Challenges
-
-## We more or less have the tools, **what are we missing**?
 
 ---
 
