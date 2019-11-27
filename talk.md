@@ -1,7 +1,7 @@
 
-## Coding like it’s 1969
+## Interfacing research, software engineering, and high-performance computing
 
-<img src="img/ibm.jpg" style="width: 100%;"/>
+<img src="img/ibm.jpg" style="width: 90%;"/>
 
 .footnote[Bundesarchiv, B 145 Bild-F038812-0014, Lothar Schaack (CC-BY-SA 3.0 DE)]
 
@@ -9,20 +9,14 @@
 
 class: center, middle, inverse
 
-# Research software engineering recipes for the next decade
+# Interfacing research, software engineering, and high-performance computing
 
 ## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
 
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
-## Slides: http://bit.ly/strasbourg50
-
----
-
-<img src="img/nat-phys.png" style="width: 100%;"/>
-
-.cite["A FAIRer future" Nat. Phys. 15, 728–730 (2019), https://doi.org/10.1038/s41567-019-0624-3]
+## Slides: http://bit.ly/lille-2019
 
 ---
 
@@ -32,7 +26,6 @@ UiT The Arctic University of Norway
 <img src="img/avatar.jpeg" style="width: 50%;"/>
 
 - Theoretical chemist turned research software engineer.
-- PhD at LCQ 2004-2008.
 - I write research software and teach programming to researchers and lead the
   [CodeRefinery project](https://coderefinery.org).
 - Co-author of the CMake Cookbook.
@@ -56,6 +49,22 @@ UiT The Arctic University of Norway
 - Blob
 - SMARTool
 ]
+
+---
+
+<img src="img/norway.png" style="width: 50%;"/>
+
+---
+
+class: center, middle
+
+<img src="img/venn.png" style="width: 70%;"/>
+
+---
+
+<img src="img/nat-phys.png" style="width: 100%;"/>
+
+.cite["A FAIRer future" Nat. Phys. 15, 728–730 (2019), https://doi.org/10.1038/s41567-019-0624-3]
 
 ---
 
@@ -178,7 +187,15 @@ ReproHack is a one day, hands-on reproducibility hackathon
 
 ---
 
+<img src="img/python-bug.jpg" style="width: 70%;"/>
+
+.cite[https://pubs.acs.org/doi/10.1021/acs.orglett.9b03216]
+
+---
+
 ## Great project: Software Heritage
+
+<img src="img/software-heritage-logo.png" style="width: 20%;"/>
 
 ### https://www.softwareheritage.org
 
@@ -388,11 +405,9 @@ class: center, middle, inverse
 
 ---
 
-## Conclusions/recommendations
+## Recommendations for research software engineering
 
-### Link to these slides: http://bit.ly/strasbourg50
-
-- Encourage students/staff to take training. **Next week I will teach in Lille!**
+- Encourage students/staff to take training.
 - Support .emph[training activities]:
   **tell your university leaders about Carpentries and CodeRefinery**.
 - .emph[Encourage sharing] and open source.
@@ -403,3 +418,213 @@ class: center, middle, inverse
 - Connect with other research software engineers.
 - Attract developers with .emph[career opportunities].
 - .emph[Influence hiring committees] to not only look at the number of papers - we get what we measure.
+
+---
+
+class: center, middle
+
+<img src="img/venn.png" style="width: 70%;"/>
+
+---
+
+
+## [Sigma2 metacenter](https://www.sigma2.no): 4 centers, 2 (soon 3) national clusters
+
+.left-column[
+]
+<img src="img/norway.png" style="width: 50%;"/>
+.right-column[
+- ### Resource usage
+- ### Resource usability
+]
+
+---
+
+<img src="img/models.png" style="width: 90%;"/>
+
+.cite[Slide taken from M. Nieminen, "Usability for HPC users?", presented at NordicHPC 2019: https://nordichpc.github.io/2019-11-14-helsinki/]
+
+---
+
+<img src="img/skill-level.svg" style="width: 100%;"/>
+
+.cite[https://carpentries.github.io/instructor-training/ and references therein]
+
+---
+
+## New domains enter HPC
+
+- Often no concept of what is a node, a core, a thread, MPI, OpenMP
+- Often little to no shell and scripting skills
+- Often no calibration of scripts
+- Often no knowledge or interest in studying job parameters
+- Job scripts inherited from generation to generation
+
+---
+
+## What do we expect from a good documentation?
+
+### Documentation comes in different forms - what *is* documentation?
+
+(This is adapted from: [What nobody tells you about documentation](https://www.divio.com/blog/documentation/))
+
+- **Tutorials**: learning-oriented, allows the newcomer to get started
+- **How-to guides**: goal-oriented, shows how to solve a specific problem
+- **Explanation**: understanding-oriented, explains a concept
+- **Reference**: information-oriented, describes the machinery
+
+These are distinct. For an excellent discussion, please see [What nobody tells you about documentation](https://www.divio.com/blog/documentation/).
+
+.quote[It is not enough to show how to specify CPU and memory job parameters,
+we also need to show users how to find out what parameters to select.]
+
+---
+
+## The XY problem
+
+.cite[Citing from http://xyproblem.info]
+
+"
+- .emph[User wants to do X].
+- User doesn't know how to do X, but thinks they can fumble their way to a solution if they can just manage to do Y.
+- User doesn't know how to do Y either.
+- .emph[User asks for help with Y].
+- Others try to help user with Y, but are confused because Y seems like a strange problem to want to solve.
+- After much interaction and wasted time, it finally becomes clear that the user really wants help with X, and that Y wasn't even a suitable solution for X.
+
+"
+
+---
+
+<img src="img/hpc-carpentry.jpg" style="width: 100%;"/>
+
+- https://carpentries.org/
+- https://hpc-carpentry.github.io/
+- Software Carpentry style introduction to MPI: https://rantahar.github.io/introduction-to-mpi/
+
+---
+
+## Top 500
+
+<img src="img/top500-nov-2019.jpg" style="width: 70%;"/>
+
+.cite[Nov. 2019, https://www.top500.org/list/2019/11/]
+
+- Is the software keeping up? Are codes ready for GPUs?
+- How about usability?
+
+---
+
+## EuroHPC: LUMI
+
+<img src="img/lumi.jpg" style="width: 80%;"/>
+
+.cite[https://datacenter.csc.fi/collaboration/]
+
+---
+
+## Software installation challenges
+
+- Software dependencies, in particular GUI applications
+- Testing
+- Sensitive data and network restrictions
+- Reproducibility: we cannot remove or change versions
+
+### Typical solutions
+
+- EasyBuild: https://easybuild.readthedocs.io
+- Spack: https://spack.io
+- Containers are coming: [Singularity](https://sylabs.io/docs/)
+
+<img src="img/hell.jpg" style="width: 100%;"/>
+
+.cite[Software dependency graph from ["How To Make Package Managers Cry"](https://archive.fosdem.org/2018/schedule/event/how_to_make_package_managers_cry/)]
+
+---
+
+## Challenges
+
+- Scaling
+- The interface is basically unchanged since the 70ies
+- Restart functionality
+- Not all jobs are "rectangular" in CPU and memory
+- Integration with Jupyter notebooks
+- Jupyter close to compute close to data
+- Better monitoring of own jobs
+- Integration with cloud
+
+---
+
+## NordicHPC
+
+Collaboration of computing facility staff and friends, somewhere between
+application experts or sysadmins of clusters, those who are the front line of
+supporting research. We have a special focus on usability and reimagining HPC
+for the modern age.
+
+.left-column[
+- Early 2019: Richard Darst visits Tromsø
+- May 2019: Workshop at NeIC conference [Reimagining Research Computing](https://nordichpc.github.io/2019-05-15-neic/)
+- In the evening: restaurant visit and discussion
+- Decision to organize a [NordicHPC workshop](https://nordichpc.github.io/2019-11-14-helsinki/)
+
+<img src="img/koch.png" style="width: 150px;"/>
+]
+
+.right-column[
+<img src="img/inauguration.jpg" style="width: 80%;"/>
+]
+
+---
+
+## HPC cafe (~ monthly events)
+
+<img src="img/coffee.png" style="width: 20%;"/>
+
+
+- How to improve your run scripts
+- Help with scripting
+- Help with programming and software management
+- Help with project organization and data management
+- Help with Linux stuff
+- How to improve performance of your calculations
+- .emph[“Papercuts”: things that annoy you and how we can fix that]
+- How to improve services
+- Project ideas
+- Learn about cool services that you may not know yet
+
+[http://hpc.uit.no/en/latest/help/hpc-cafe.html]
+
+---
+
+## Typical papercuts
+
+- Extending jobs
+- Bumping job priority
+- Understanding job priority
+- Application bureaucracy
+- Too long queuing time for debug jobs
+- Getting test- and course accounts
+- No network on compute or even login nodes
+
+---
+
+## Kind requests (slides: http://bit.ly/lille-2019)
+
+### To users
+
+- Please calibrate first, later go for the production calculation
+- Create test examples
+- Study scaling for a representative system before computing a table
+
+### To developers
+
+- Remember that your code will be installed by scripts and people who have never used
+  your code when adding dependencies and changing configuration
+- Allow restart
+
+### To computing centers
+
+- Talk with users and listen to what they want and need
+- Do not forget usability
+- Communicate roadmap
