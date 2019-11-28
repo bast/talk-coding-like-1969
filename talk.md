@@ -486,6 +486,12 @@ for the modern age.
 
 ---
 
+<img src="img/skill-level.svg" style="width: 100%;"/>
+
+.cite[https://carpentries.github.io/instructor-training/ and references therein]
+
+---
+
 ## The XY problem
 
 .cite[Citing from http://xyproblem.info]
@@ -499,12 +505,6 @@ for the modern age.
 - After much interaction and wasted time, it finally becomes clear that the user really wants help with X, and that Y wasn't even a suitable solution for X.
 
 "
-
----
-
-<img src="img/skill-level.svg" style="width: 100%;"/>
-
-.cite[https://carpentries.github.io/instructor-training/ and references therein]
 
 ---
 
