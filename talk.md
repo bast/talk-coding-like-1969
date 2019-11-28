@@ -434,14 +434,16 @@ class: center, middle
 
 ## Usability challenges
 
-- Scaling
 - The interface is basically unchanged since the 70ies
 - Restart functionality
+- Lack of monitoring tools: users become the monitoring
 - Not all jobs are "rectangular" in CPU and memory
 - Integration with Jupyter notebooks
 - Jupyter close to compute close to data
 - Better monitoring of own jobs
 - Integration with cloud
+- Documentation is fragmented and not written for novices
+- Installing own software difficult or undocumented
 - .emph[“Papercuts”]: small but annoying problems
 
 ---
