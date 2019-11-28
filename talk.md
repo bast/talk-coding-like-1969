@@ -142,6 +142,12 @@ Advance .emph[FAIRness] of software management and development practices so that
 
 ---
 
+<img src="img/python-bug.jpg" style="width: 70%;"/>
+
+.cite[https://pubs.acs.org/doi/10.1021/acs.orglett.9b03216]
+
+---
+
 class: center, middle, inverse
 
 ## Software reproducibility 10-year challenge:
@@ -187,12 +193,6 @@ ReproHack is a one day, hands-on reproducibility hackathon
 
 ---
 
-<img src="img/python-bug.jpg" style="width: 70%;"/>
-
-.cite[https://pubs.acs.org/doi/10.1021/acs.orglett.9b03216]
-
----
-
 ## Great project: Software Heritage
 
 <img src="img/software-heritage-logo.png" style="width: 20%;"/>
@@ -220,14 +220,6 @@ generations.
 
 .quote["The scientific community should always be able to verify that a published program will produce correct results"]
 .cite[Roberts, K. V., Comput. Phys. Comm. 1, 1 (1969)]
-
----
-
-## "The publication of scientific Fortran programs"
-
-<img src="img/roberts1.jpg" style="width: 100%;"/>
-
-.cite[https://doi.org/10.1016/0010-4655(69)90011-3]
 
 ---
 
@@ -440,109 +432,7 @@ class: center, middle
 
 ---
 
-<img src="img/models.png" style="width: 90%;"/>
-
-.cite[Slide taken from M. Nieminen, "Usability for HPC users?", presented at NordicHPC 2019: https://nordichpc.github.io/2019-11-14-helsinki/]
-
----
-
-<img src="img/skill-level.svg" style="width: 100%;"/>
-
-.cite[https://carpentries.github.io/instructor-training/ and references therein]
-
----
-
-## New domains enter HPC
-
-- Often no concept of what is a node, a core, a thread, MPI, OpenMP
-- Often little to no shell and scripting skills
-- Often no calibration of scripts
-- Often no knowledge or interest in studying job parameters
-- Job scripts inherited from generation to generation
-
----
-
-## What do we expect from a good documentation?
-
-### Documentation comes in different forms - what *is* documentation?
-
-(This is adapted from: [What nobody tells you about documentation](https://www.divio.com/blog/documentation/))
-
-- **Tutorials**: learning-oriented, allows the newcomer to get started
-- **How-to guides**: goal-oriented, shows how to solve a specific problem
-- **Explanation**: understanding-oriented, explains a concept
-- **Reference**: information-oriented, describes the machinery
-
-These are distinct. For an excellent discussion, please see [What nobody tells you about documentation](https://www.divio.com/blog/documentation/).
-
-.quote[It is not enough to show how to specify CPU and memory job parameters,
-we also need to show users how to find out what parameters to select.]
-
----
-
-## The XY problem
-
-.cite[Citing from http://xyproblem.info]
-
-"
-- .emph[User wants to do X].
-- User doesn't know how to do X, but thinks they can fumble their way to a solution if they can just manage to do Y.
-- User doesn't know how to do Y either.
-- .emph[User asks for help with Y].
-- Others try to help user with Y, but are confused because Y seems like a strange problem to want to solve.
-- After much interaction and wasted time, it finally becomes clear that the user really wants help with X, and that Y wasn't even a suitable solution for X.
-
-"
-
----
-
-<img src="img/hpc-carpentry.jpg" style="width: 100%;"/>
-
-- https://carpentries.org/
-- https://hpc-carpentry.github.io/
-- Software Carpentry style introduction to MPI: https://rantahar.github.io/introduction-to-mpi/
-
----
-
-## Top 500
-
-<img src="img/top500-nov-2019.jpg" style="width: 70%;"/>
-
-.cite[Nov. 2019, https://www.top500.org/list/2019/11/]
-
-- Is the software keeping up? Are codes ready for GPUs?
-- How about usability?
-
----
-
-## EuroHPC: LUMI
-
-<img src="img/lumi.jpg" style="width: 80%;"/>
-
-.cite[https://datacenter.csc.fi/collaboration/]
-
----
-
-## Software installation challenges
-
-- Software dependencies, in particular GUI applications
-- Testing
-- Sensitive data and network restrictions
-- Reproducibility: we cannot remove or change versions
-
-### Typical solutions
-
-- EasyBuild: https://easybuild.readthedocs.io
-- Spack: https://spack.io
-- Containers are coming: [Singularity](https://sylabs.io/docs/)
-
-<img src="img/hell.jpg" style="width: 100%;"/>
-
-.cite[Software dependency graph from ["How To Make Package Managers Cry"](https://archive.fosdem.org/2018/schedule/event/how_to_make_package_managers_cry/)]
-
----
-
-## Challenges
+## Usability challenges
 
 - Scaling
 - The interface is basically unchanged since the 70ies
@@ -552,6 +442,7 @@ we also need to show users how to find out what parameters to select.]
 - Jupyter close to compute close to data
 - Better monitoring of own jobs
 - Integration with cloud
+- .emph[“Papercuts”]: small but annoying problems
 
 ---
 
@@ -574,6 +465,70 @@ for the modern age.
 .right-column[
 <img src="img/inauguration.jpg" style="width: 80%;"/>
 ]
+
+---
+
+<img src="img/models.png" style="width: 90%;"/>
+
+.cite[Slide taken from M. Nieminen, "Usability for HPC users?", presented at NordicHPC 2019: https://nordichpc.github.io/2019-11-14-helsinki/]
+
+---
+
+## New domains enter HPC
+
+- Often no concept of what is a node, a core, a thread, MPI, OpenMP
+- Often little to no shell and scripting skills
+- Often no calibration of scripts
+- Often no knowledge or interest in studying job parameters
+- Job scripts inherited from generation to generation
+
+---
+
+## The XY problem
+
+.cite[Citing from http://xyproblem.info]
+
+"
+- .emph[User wants to do X].
+- User doesn't know how to do X, but thinks they can fumble their way to a solution if they can just manage to do Y.
+- User doesn't know how to do Y either.
+- .emph[User asks for help with Y].
+- Others try to help user with Y, but are confused because Y seems like a strange problem to want to solve.
+- After much interaction and wasted time, it finally becomes clear that the user really wants help with X, and that Y wasn't even a suitable solution for X.
+
+"
+
+---
+
+<img src="img/skill-level.svg" style="width: 100%;"/>
+
+.cite[https://carpentries.github.io/instructor-training/ and references therein]
+
+---
+
+## What do we expect from a good documentation?
+
+### Documentation comes in different forms - what *is* documentation?
+
+(This is adapted from: [What nobody tells you about documentation](https://www.divio.com/blog/documentation/))
+
+- **Tutorials**: learning-oriented, allows the newcomer to get started
+- **How-to guides**: goal-oriented, shows how to solve a specific problem
+- **Explanation**: understanding-oriented, explains a concept
+- **Reference**: information-oriented, describes the machinery
+
+These are distinct. For an excellent discussion, please see [What nobody tells you about documentation](https://www.divio.com/blog/documentation/).
+
+.quote[It is not enough to show how to specify CPU and memory job parameters,
+we also need to show users how to find out what parameters to select.]
+
+---
+
+<img src="img/hpc-carpentry.jpg" style="width: 100%;"/>
+
+- https://carpentries.org/
+- https://hpc-carpentry.github.io/
+- Software Carpentry style introduction to MPI: https://rantahar.github.io/introduction-to-mpi/
 
 ---
 
@@ -609,7 +564,45 @@ for the modern age.
 
 ---
 
-## Kind requests (slides: http://bit.ly/lille-2019)
+## Software installation challenges
+
+- Software dependencies, in particular GUI applications
+- Testing
+- Sensitive data and network restrictions
+- Reproducibility: we cannot remove or change versions
+
+### Typical solutions
+
+- EasyBuild: https://easybuild.readthedocs.io
+- Spack: https://spack.io
+- Containers are coming: [Singularity](https://sylabs.io/docs/)
+
+<img src="img/hell.jpg" style="width: 100%;"/>
+
+.cite[Software dependency graph from ["How To Make Package Managers Cry"](https://archive.fosdem.org/2018/schedule/event/how_to_make_package_managers_cry/)]
+
+---
+
+## Top 500
+
+<img src="img/top500-nov-2019.jpg" style="width: 70%;"/>
+
+.cite[Nov. 2019, https://www.top500.org/list/2019/11/]
+
+- Is the software keeping up? Are codes ready for GPUs?
+- How about usability?
+
+---
+
+## EuroHPC: LUMI
+
+<img src="img/lumi.jpg" style="width: 80%;"/>
+
+.cite[https://datacenter.csc.fi/collaboration/]
+
+---
+
+## Kind requests
 
 ### To users
 
@@ -627,4 +620,14 @@ for the modern age.
 
 - Talk with users and listen to what they want and need
 - Do not forget usability
-- Communicate roadmap
+- Communicate roadmaps
+
+---
+
+## Conclusions
+
+Slides: http://bit.ly/lille-2019
+
+I think we have the tools but we need to create a .emph[culture] where openness
+is credited and improve .emph[usability] of tools as well as
+.emph[communication] between research and computing.
